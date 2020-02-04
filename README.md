@@ -8,4 +8,5 @@
 <img src="https://user-images.githubusercontent.com/59208555/73767472-c9c48000-4777-11ea-911b-f6586d8205f1.jpg" width="200" height="400">
 <img src="https://user-images.githubusercontent.com/59208555/73767489-ce893400-4777-11ea-9f2f-3059b47c6933.jpg" width="200" height="400">
 
-<img src="(https://user-images.githubusercontent.com/59208555/73767892-67b84a80-4778-11ea-98e1-67664f8f4d79.jpg" width="200" height="400">
+# Dark Theme:
+<img src="https://user-images.githubusercontent.com/59208555/73768027-9e8e6080-4778-11ea-9ea4-b674374753e5.jpg" width="200" height="400">
