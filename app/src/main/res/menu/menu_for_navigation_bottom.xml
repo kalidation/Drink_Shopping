@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/new_status"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/New"
+
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/cancel_status"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/Canceled"
+
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/processing_status"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/Processing"
+
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/shipping_status"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/Shipping"
+
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/shipped_status"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/Shipped"
+
+        android:enabled="true"/>
+
+
+</menu>

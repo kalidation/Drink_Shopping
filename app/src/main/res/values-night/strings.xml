@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dark">Dark Theme</string>
+    <string name="Canceled">Canceled</string>
+    <string name="Processing">Processing</string>
+    <string name="Shipping">Shipping</string>
+    <string name="Shipped">Shipped</string>
+    <string name="New">New</string>
+
+</resources>

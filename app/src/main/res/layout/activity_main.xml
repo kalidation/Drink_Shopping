@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorbackground"
+    tools:context=".Activities.MainActivity">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Sign Up "
+        android:textSize="22sp"
+        android:textColor="@color/textcolor"/>
+
+    <EditText
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_phone"
+        android:id="@+id/edit_text_phone_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Phone ..."
+        android:inputType="phone"
+        android:textColorHint="@color/textcolor"/>
+
+    <EditText
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:id="@+id/edit_text_password_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/textcolor"/>
+
+    <EditText
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_person"
+        android:id="@+id/edit_text_name_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Name ..."
+        android:inputType="text"
+        android:textColorHint="@color/textcolor"/>
+
+    <EditText
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_date_range"
+        android:id="@+id/edit_text_brthd_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="yyyy-mm-dd ..."
+        android:inputType="text"
+        android:textColorHint="@color/textcolor"/>
+
+    <EditText
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_school"
+        android:id="@+id/edit_text_Address_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="School ..."
+        android:inputType="text"
+        android:textColorHint="@color/textcolor"/>
+
+    <TextView
+        android:id="@+id/text_view_register"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Already have an account ? Login here !"
+        android:textSize="22sp"
+        android:textColor="@color/textcolor"/>
+
+    <Button
+        android:layout_marginTop="70dp"
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/button"
+        android:text="Register Your Account ! "
+        android:textColor="@color/textcolor" />
+
+</LinearLayout>
